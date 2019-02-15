@@ -1,5 +1,5 @@
 Source: asynk
-Section: unknown
+Section: utils
 Priority: optional
 Maintainer: Mark Buda <hermit@acm.org>
 Build-Depends: debhelper (>= 10)
