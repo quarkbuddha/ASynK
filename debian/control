@@ -4,12 +4,41 @@ Priority: optional
 Maintainer: Mark Buda <hermit@acm.org>
 Build-Depends: debhelper (>= 10), python-all-dev
 Standards-Version: 4.1.2
-Homepage: <insert the upstream URL, if relevant>
-#Vcs-Git: https://anonscm.debian.org/git/collab-maint/asynk.git
-#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/asynk.git
+Homepage: https://asynk.io/
+Vcs-Git: https://github.com/quarkbuddha/ASynK.git
+Vcs-Browser: https://github.com/quarkbuddha/ASynK.git
 
 Package: asynk
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Description: A powerful open source Contacts synchronization program
+ ASynK CmdLine is a powerful open source Contacts synchronization
+ program that works with a variety of Contacts software such as
+ Microsoft Outlook, Microsoft Exchange Server, Google Contacts, Any
+ standards compiant CardDAV server, and Emacs BBDB.
+
+ Some of the key features of ASynK are:
+
+ ASynK allows two-way sync of Contacts across any two supported
+ sources. For e.g. you can use this to copy contacts from one Google
+ account to another, or from your Google account and your official MS
+ Exchange account etc.
+
+ ASynK is the only two-way synchronization option for BBDB known to be
+ in existence today. So if you are keen to keep your BBDB content
+ synchronized with a mobile device or Outlook, look no further.
+
+ ASynK works on Windows, MacOS X, and Linux. Outlook synchronization
+ only works on Windows.
+
+ Synchronization is granular to the level of 'Folders', i.e. you can
+ synchronize one folder of Google Contacts with a Outlook folder (on
+ Windows at work, say), and another Google folder in the same account
+ with BBDB (On your Mac, say)
+
+ The infrastructure is there to add more database and item types
+ (i.e. tasks, notes, etc.), but currently only Contacts
+ synchronization is supported
+
+ It is free software, and released under the GNU AGPL (Affero GPL)
+ version 3
