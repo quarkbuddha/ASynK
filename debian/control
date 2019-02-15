@@ -9,7 +9,7 @@ Vcs-Git: https://github.com/quarkbuddha/ASynK.git
 Vcs-Browser: https://github.com/quarkbuddha/ASynK.git
 
 Package: asynk
-Architecture: any
+Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: A powerful open source Contacts synchronization program
  ASynK CmdLine is a powerful open source Contacts synchronization

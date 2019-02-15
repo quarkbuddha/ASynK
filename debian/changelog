@@ -1,3 +1,9 @@
+asynk (2.3.1-2) bionic; urgency=medium
+
+  * Fixed architecture.
+
+ -- Mark Buda <hermit@acm.org>  Fri, 15 Feb 2019 14:52:57 -0500
+
 asynk (2.3.1-1) bionic; urgency=medium
 
   * Initial release
